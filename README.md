@@ -9,4 +9,9 @@
 ```
 - 服务运行
 ```sh
-> ./aliyun_ecs_api -s <mysql|redis|Linux>
+> ./expoter-install -s <mysql|redis|Linux|kafka>
+```
+
+- 有其他服务安装需求，在继续增加。
+- 依赖服务版本调整在install/install.go
+
